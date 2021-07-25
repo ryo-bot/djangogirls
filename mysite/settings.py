@@ -25,6 +25,7 @@ SECRET_KEY = '7ibanf7i9jwl0%6$1*r+zy+eh=!l0#dkjiytk#u8x+*)t)jpp@'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+#ホストネームを追加
 ALLOWED_HOSTS = ['127.0.0.1', 'pythonanywhere.com']
 
 
@@ -104,8 +105,10 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/2.2/topics/i18n/
 
+#日本語に変更
 LANGUAGE_CODE = 'ja'
 
+#自分の住んでいる地域のタイムゾーンに変更」
 TIME_ZONE = 'Asia/Tokyo'
 
 USE_I18N = True
@@ -119,4 +122,5 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+#静的ファイルのパスを追加
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
