@@ -26,7 +26,7 @@ SECRET_KEY = '7ibanf7i9jwl0%6$1*r+zy+eh=!l0#dkjiytk#u8x+*)t)jpp@'
 DEBUG = True
 
 #ホストネームを追加
-ALLOWED_HOSTS = ['127.0.0.1', 'pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com']
 
 
 # Application definition
