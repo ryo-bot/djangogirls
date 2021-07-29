@@ -9,3 +9,5 @@ include関数
 ROOT url
 render
 引数
+pythonanywhere仮想環境の設定はログインごとなのか
+WEBサーバー上で起動するには
