@@ -7,11 +7,33 @@
 
 
 # Usage（利用方法）
-1. 仮想環境の起動
+
+## 仮想環境
+1. 作成
+    ```
+    $ python3 -m venv myvenv
+    ```
+1. 起動
     ```
     $ source myvenv/bin/activate
     ```
-1. Webサーバの起動
+1. 停止
+    ```
+    $ deactivate
+    ```
+## Djangoのインストール
+1. コマンドを実行するディレクトリに`requirements.txt`ファイルを作成する
+    - アプリに必要なパッケージ（ライブラリ）を一括でインストールするため、以下のテキストを追加
+    ```
+    Django~=2.2.4
+    ```
+1. パッケージをインストール
+    ```
+    (myvenv) ~$ python -m pip install --upgrade pip
+    ```
+    
+## Webサーバ
+1. 起動
     ```
     (myvenv) ~/djangogirls$ python manage.py runserver
     ```
@@ -20,12 +42,6 @@
     http://127.0.0.1:8000/
     
 
-1. Webサーバの停止
+1. 停止
 
-    CTRL + C
-
-1. 仮想環境の停止
-    ```
-    (.venv)djangogirls_pure$ deactivate
-    ```
-    
+    CTRL + C    
