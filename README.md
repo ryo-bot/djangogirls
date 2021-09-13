@@ -29,7 +29,7 @@
     ```
 1. パッケージをインストール
     ```
-    (myvenv) ~$ python -m pip install --upgrade pip
+    (myvenv) ~$ pip install -r requirements.txt
     ```
     
 ## Webサーバ
